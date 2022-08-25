@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Rede de padarias Kipão</title>
+      <link rel = "stylesheet" type="text/css" href="../KPcss/cssKP.css">
+      <link rel="shortcut icon" href = "logo_padaria.png">
+      <script type = "text/javascript" src="../KPjs/BancoDadosKP.js"></script>
+      <script type = "text/javascript" src = "../KPjs/jsKP2.js"></script>
+  </head>
+  <body>
+    <div class = "geral_produtos">
+        <div class = "barra">
+            <h1>A maior do Seridó!</h1>
+        </div>
+        <div class = "tabela_prod">
+            <h1>Produtos</h1>
+            <input type="text" id="input_edita_prod" placeholder="Digite um serial para editar">
+            <button id="botao_edita_prod" onclick="edit_prod()">editar</button>
+            <table>
+                <thead>
+                    <th>Serial</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </thead>
+                <tbody id = "corpo_prod"></tbody>
+            </table>
+                <button id="adic_prod" onClick="adic_prod()">Adicionar</button>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+produto1={nome: "Pão francês", preco: 1.00, serial: 121}
+produto2={nome: "Pão carteira", preco: 1.10, serial: 122}
+produto3={nome: "Pão julianie", preco: 1.50, serial: 123}
+produto4={nome: "Pão doce", preco: 1.30, serial: 124}
+produto5={nome: "Torta holandesa", preco: 3.70, serial: 231}
+produto6={nome: "Torta alemã", preco: 3.50, serial: 232}
+produto7={nome: "Torta aurora", preco: 3.20, serial: 233}
+produto8={nome: "Torta de carne", preco: 4.20, serial: 341}
+produto9={nome: "Torta de frango", preco: 4.50, serial: 342}
+produto10={nome: "Torta calabresa", preco: 5.00, serial: 343}
+produto11={nome: "Pastel de frango", preco: 1.00, serial: 451}
+produto12={nome: "Pastel de carne", preco: 1.00, serial: 452}
+produto13={nome: "Pastel de calabresa", preco: 1.20, serial: 453}
+produto14={nome: "Pastel misto", preco: 1.15, serial: 454}
+produto15={nome: "Pastel de forno", preco: 3.30, serial: 455}
+produto16={nome: "Coxinha", preco: 2.00, serial: 561}
+produto17={nome: "Empada", preco: 2.50, serial: 671}
+produto18={nome: "Tortalete", preco: 2.10, serial: 672}
+produto19={nome: "Croissant", preco: 5.50, serial: 673}
+produto20={nome: "Bolo de chocolate", preco: 15, serial: 674}
+
+produtos=[produto1, produto2, produto3, produto4, produto5, produto6, produto7, produto8, produto9, produto10, produto11, produto12, produto13, produto14, produto15, produto16, produto17, produto18, produto19, produto20]
+//produtos = representa o banco de dados que está guardando os produtos
+
+usuario1={name: "Ricardo", contrato:018, contato:99052947, idade:52, username:"Ric", password: 123456}
+usuario2={name: "Juliana", contrato:025, contato:98045724, idade:32, username: "Ju", password:234567 }
+usuario3={name: "Ezequiel", contrato:012, contato:99171845, idade:49, username: "Ezequiel", password: 345678}
+usuario4={name: "Pedro", contrato:022, contato:99724857, idade:25, username:"Pedro", password: 456789}
+usuario5={name: "Açucena", contrato:027, contato:98148526, idade:20, username: "Sussu", password: 567890}
+usuario6={name: "Alice", contrato:029, contato:98819482, idade:18, username: "Alice", password: 678901}
+usuario7={name: "Maju", contrato:002, contato:99471485, idade:64, username:"Maju", password: 789012}
+usuario8={name: "João", contrato:003, contato:98591846, idade:67, username: "Joao", password: 890123}
+usuario9={name: "Miguel", contrato:011, contato:99035820, idade:37, username: "Gueguel", password: 901234}
+usuario10={name: "Mara", contrato:023, contato:99571892, idade:31, username:"Marinha", password: 135791}
+usuario11={name: "Rebeca", contrato:028, contato:99055720, idade:32, username: "Beca", password: 246824}
+usuario12={name: "Lourdes", contrato:007, contato:99051749, idade:57, username: "Lulu", password: 132446}
+usuario13={name: "Mariana Freitas", contrato:001, contato:99036719, idade:24, username:"Mari", password: 182750}
+usuario14={name: "Stephanny Lima", contrato:000, contato:99030457, idade:25, username:"Ste", password:130704}
+
+usuarios=[usuario1, usuario2, usuario3, usuario4, usuario5, usuario6, usuario7, usuario8, usuario9, usuario10, usuario11, usuario12, usuario13, usuario14]
+//usuarios = representa o banco de dados que está guardando os usuarios

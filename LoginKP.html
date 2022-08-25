@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../KPcss/cssKP.css">
+	<link rel="shortcut icon" href = "logo_padaria.png">
+	<title>Rede de padarias kipao</title>
+	<script src="../KPjs/BancoDadosKP.js"></script>
+	<script src = "../KPjs/jsKP.js"></script>
+</head>
+<body>
+	<div class="geralLogin">
+			<div class="barra">
+				<h1>A maior do Seridó</h1>
+			</div>
+				<h2>Painel de funcionários</h2>
+			<div class="painel">
+					<center>
+							<label id="label_usuario" for = "text">Usuário:</label>
+							<input id="input_usuario" type="text" name="usuario" id="usuario" placeholder="Digite o seu nome de usuario" autocomplete="off"><!-- recebe os dados do usuario-->
+				      <br>
+				      <label id="label_senha" for = "password">Senha:</label><!-- uma legenda de um elemento que aparece para o usuário -->
+				      <input id="input_senha" type = "password" name = "senha" id="senha" placeholder="Digite a sua senha"> <!-- recebe os dados do usuario-->
+				      <!-- OBS: o placeholder é a frase que fica dentro da caixa para o usuaio digitar-->
+				      <button id="entrar" onclick="ValidaDados()">Entrar</button>
+				      <br>
+			    </center>
+			  </div>
+		</div>
+</body>
+</body>
+</html>

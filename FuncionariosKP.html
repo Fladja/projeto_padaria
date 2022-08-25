@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rede de padarias Kipão</title>
+    <link rel = "stylesheet" type="text/css" href="../KPcss/cssKP.css">
+    <link rel="shortcut icon" href = "logo_padaria.png">
+    <script type = "text/javascript" src="../KPjs/BancoDadosKP.js"></script>
+    <script type = "text/javascript" src = "../KPjs/jsKP.js"></script>
+  </head>
+  <body>
+    <div class = "geral_funcionarios">
+      <div class = "barra">
+          <h1>A maior do Seridó!</h1>
+      </div>
+      <div class = "tabela">
+        <h1>Funcionários</h1>
+        <input type="text" id="input_edita" placeholder="Digite um contrato para editar">
+        <button id="botao_edita" onclick="edit_func()">editar</button>
+        <table>
+            <thead>
+                <th>Contrato</th>
+                <th>Funcionário</th>
+                <th>Idade</th>
+                <th>Contato</th>
+                <th>Username</th>
+                <th>Senhas</th>
+            </thead>
+            <tbody id = "corpo_func"></tbody>
+        </table>
+            <button id="adic" onClick="adic_func()">Adicionar</button>
+      </div>
+    </div>
+  </body>
+</html>
